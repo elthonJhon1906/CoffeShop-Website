@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filosofi Kopi</title>
+    <link rel="icon" href="images/Logo_Filosofi_Kopi-removebg-preview.png">
+</head>
+
+    <!-- type font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Css Styling -->
+     <link rel="stylesheet" href="css/style.css">
+<body>
+
+    <!-- Header Section Starts -->
+
+     <div class="header">
+
+        <a href="#" class="logo">
+            <img src="images/Logo_Filosofi_Kopi-removebg-preview.png" alt="Logo Filosofi Kopi">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn" onclick="search()"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn" onclick="cartItem()"></div>
+            <div class="fas fa-bars" id="menu-btn" onclick="sideMenu()"></div>
+        </div>
+        
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/Robusta.png" alt="Robusta Image">
+                <div class="content">
+                    <h3>Robusta</h3>
+                    <div class="price">Rp.120.000,-</div>
+                    </div>
+                </div>
+
+                    <div class="cart-item">
+                        <span class="fas fa-times"></span>
+                        <img src="images/arabica.png" alt="Arabica Image">
+                        <div class="content">
+                            <h3>Arabica</h3>
+                            <div class="price">Rp.178.000,-</div>
+                            </div>
+                        </div>
+                    
+                        <div class="cart-item">
+                            <span class="fas fa-times"></span>
+                            <img src="images/Excelsa.png" alt="Excelsa Image">
+                            <div class="content">
+                                <h3>Excelsa</h3>
+                                <div class="price">Rp.230.000,-</div>
+                                </div>
+                            </div>
+
+                            <div class="cart-item">
+                                <span class="fas fa-times"></span>
+                                <img src="images/Liberica.png" alt="Liberica Image">
+                                <div class="content">
+                                    <h3>Liberica</h3>
+                                    <div class="price">Rp.212.000,-</div>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="btn">checkout now</a>
+                            </div>
+
+        </div>
+     </header>
+
+     <!-- Header Section End -->
+    
+     <!-- Home Section Start -->
+
+     <section class="home" id="home">
+
+        <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi aliquam veniam exercitationem laudantium commodi nesciunt qui corporis iure dolores minima! Autem, sapiente?</p>
+        <a href="#" class="btn"> get yours now</a>
+    </div>
+
+     </section>
+     <!-- Home Section End -->
+
+
+     <!-- About Section Start -->
+
+     <div class="hr" style="padding: 2rem 8rem;">
+        <hr style="border-top: 1px solid white;">
+     </div>
+
+     <section class="about" id="about">
+        
+        <h1 class="heading"><span>about</span> us</h1>
+
+        <div class="row">
+            <div class="founder-filkop">
+                <div class="ben">
+                    <img src="images/Filkop-ben.jpg" alt="Ben">
+                    <p>Kopi itu seni. Setiap tetesnya adalah ekspresi jiwa, setiap pahitnya adalah pelajaran, dan setiap manisnya adalah hadiah yang harus lo nikmati dengan penuh syukur</p>
+                </div>
+    
+                <div class="jody">
+                    <img src="images/Filkop-jody.jpg" alt="Jody">
+    
+                    <p>Kopi itu keseimbangan. Nggak cuma soal rasa, tapi gimana lo bikin prosesnya tepat, hasilnya konsisten, dan bisa bikin siapa pun yang minum ngerasa dihargai.</p>
+                </div>
+    
+                            
+                <div class="brie">
+                    <img src="images/Filkop-brie.jpg" alt="Brie">
+                    <p>Kopi itu adalah fokus dan tujuan. Kayak hidup, kalau lo racik dengan rencana yang jelas, hasilnya bakal jadi sesuatu yang meaningful, nggak cuma buat lo, tapi juga buat orang lain.</p>
+                </div>
+    
+                <div class="tarra">
+                    <img src="images/Filko-tarra.jpeg" alt="Tarra"> 
+    
+                    <p>Kopi itu cerita. Setiap aromanya, setiap rasanya, selalu punya kisah yang bisa nyambungin lo sama orang lain, bikin obrolan lo jadi hangat, dan moment lo jadi lebih berkesan.</p>
+                </div>
+            </div>
+            
+            <hr style="border-top: 1px solid white;">
+
+            <!-- .about .row .filkop-place -->
+
+            <div class="filkop-place">
+                <img src="images/about.jpg" alt="Filosofi Kopi Place">
+                <div class="content">
+                    <h3>Lebih dari Sekadar Kopi, Ini Tentang Cerita dan Makna.</h3>
+                    <p>Kopi Filosofi Kopi beda karena setiap cangkirnya bukan cuma diracik dengan bahan terbaik, tapi juga dengan cerita, filosofi, dan hati yang bikin rasa dan maknanya nempel di hati lo</p>
+                    <a href="#" class="btn">nikmati sekarang!</a>
+                </div>
+            </div>
+
+        <div class="founder-section">
+        <img src="images/filosofiKopiFounder.jpeg" alt="Ben & Jody">
+
+        <div class="founder">
+        <p>Ben dan Jody bukan cuma pendiri Filosofi Kopi, tapi juga jiwa dari setiap cangkir kopi yang kamu nikmati di sini. Mereka adalah dua sahabat dengan mimpi besar, yang berawal dari keinginan sederhana untuk membuat kopi yang bukan cuma enak, tapi juga punya cerita.</p>
+        <a href="#" class="btn">Jelajahi Filosofi Kopi!</a>
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+     <div class="hr" style="padding: 2rem 8rem;">
+        <hr style="border-top: 1px solid white;">
+     </div>
+
+      <!-- About Section End -->
+
+
+     <!-- Menu Section Start -->
+
+     <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/coffee 1.jpg" alt="Caffe latte">
+                <h3>Caffe latte</h3>
+                <div class="price">Rp.25.000 <span>22.500</span></div>
+                <a href="#" class="btn">tambahkan ke keranjang</a>
+            </div>
+            <div class="box">
+                <img src="images/coffee 2.jpg" alt="Caramel latte">
+                <h3>Caramel latte</h3>
+                <div class="price">Rp.30.000 <span>25.500</span></div>
+                <a href="#" class="btn">tambahkan ke keranjang</a>
+            </div>
+            <div class="box">
+                <img src="images/coffee 3.jpg" alt="Cappucino">
+                <h3>Cappucino</h3>
+                <div class="price">Rp.28.000 <span>25.500</span></div>
+                <a href="#" class="btn">tambahkan ke keranjang</a>
+            </div>
+            <div class="box">
+                <img src="images/coffee 4.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <div class="price">Rp.20.000 <span>19.000</span></div>
+                <a href="#" class="btn">tambahkan ke keranjang</a>
+            </div>            
+            <div class="box">
+                <img src="images/coffee 5.jpg" alt="Caramel machiato">
+                <h3>Caramel machiato</h3>
+                <div class="price">Rp.32.000 <span>27.000</span></div>
+                <a href="#" class="btn">tambahkan ke keranjang</a>
+            </div>            
+            <div class="box">
+                <img src="images/coffee 6.jpg" alt="Cappucino dingin">
+                <h3>Cappucino dingin</h3>
+                <div class="price">Rp.30.000 <span>27.000</span></div>
+                <a href="#" class="btn">tambahkan ke keranjang</a>
+            </div>
+            <div class="box">
+                <img src="images/coffee 7.jpg" alt="Longblack">
+                <h3>Longblack</h3>
+                <div class="price">Rp.22.000 <span>20.000</span></div>
+                <a href="#" class="btn">tambahkan ke keranjang</a>
+            </div>
+            <div class="box">
+                <img src="images/coffee 8.jpg" alt="Mocha latte">
+                <h3>Mocha latte</h3>
+                <div class="price">Rp.33.000 <span>28.000</span></div>
+                <a href="#" class="btn">tambahkan ke keranjang</a>
+            </div>
+        </div>
+     </section>
+
+      <!-- Menu Section End -->
+
+     <!-- Products Section start -->
+
+     <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="images">
+                <img src="images/perfecto.jpeg" alt="Produk perfecto">
+            </div>
+            <div class="content">
+                <h3>Robusta</h3>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rp.45.000 <span>53.000</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="images">
+            <img src="images/tiwus.jpeg" alt="Produk tiwus">
+        </div>
+        <div class="content">
+            <h3>Robusta</h3>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp.45.000 <span>53.000</span></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+    </div>
+    <div class="images">
+        <img src="images/tubruk.jpeg" alt="Produk tubruk">
+    </div>
+    <div class="content">
+        <h3>Robusta</h3>
+        <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">Rp.45.000 <span>53.000</span></div>
+    </div>
+</div>
+
+<div class="box">
+    <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+</div>
+<div class="images">
+    <img src="images/lestari.jpeg" alt="Produk lestari">
+</div>
+<div class="content">
+    <h3>Robusta</h3>
+    <div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <div class="price">Rp.45.000 <span>53.000</span></div>
+</div>
+</div>
+
+<div class="box">
+    <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+</div>
+<div class="images">
+    <img src="images/arabica.jpeg" alt="Produk arabica">
+</div>
+<div class="content">
+    <h3>Robusta</h3>
+    <div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <div class="price">Rp.45.000 <span>53.000</span></div>
+</div>
+</div>
+
+<div class="box">
+    <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+</div>
+<div class="images">
+    <img src="images/robusta.jpeg" alt="Produk robusta">
+</div>
+<div class="content">
+    <h3>Robusta</h3>
+    <div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <div class="price">Rp.45.000 <span>53.000</span></div>
+</div>
+</div>
+
+        
+        </div>
+     </section>
+     
+     <!-- Products Section end -->
+
+     
+
+    <!-- Review Section start -->
+
+     <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="gg-quote"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, cupiditate. Esse error, quae accusantium nisi praesentium voluptate ratione expedita nihil necessitatibus modi cum eius quos sit eveniet iste aliquam dolore.</p>
+                <div class="user">
+                    <img src="images/tomy-arya.jpg" alt="Cusomer 1">
+                </div>
+                <h3>Tomy Arya Fiosa</h3>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="gg-quote"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, cupiditate. Esse error, quae accusantium nisi praesentium voluptate ratione expedita nihil necessitatibus modi cum eius quos sit eveniet iste aliquam dolore.</p>
+                <div class="user">
+                    <img src="images/bagas-pangestu.jpg" alt="Cusomer 2" >
+                </div>
+                <h3>Bagas Pangestu</h3>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="gg-quote"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, cupiditate. Esse error, quae accusantium nisi praesentium voluptate ratione expedita nihil necessitatibus modi cum eius quos sit eveniet iste aliquam dolore.</p>
+                <div class="user">
+                    <img src="images/aidil-fikri.jpg" alt="Cusomer 3">
+                </div>
+                <h3>aidil fikri</h3>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Review Section end -->
+
+
+     <!-- Contact section start -->
+     <section class="contact" id="contact">
+        <h1 class="heading">contact <span>us</span></h1>
+
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8163166.907941046!2d101.61142522122243!3d-2.532564031817474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f16c1b8a6171%3A0x7eb4aaec2856cc15!2sFilosofi%20Kopi%20Melawai!5e0!3m2!1sid!2sid!4v1737954484100!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="input-box">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="input-box">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="input-box">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+        </div>
+     </section>
+
+     <!-- Contact section end -->
+
+
+     <!-- Blog Section start -->
+
+     <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/blogs1.jpeg" alt="blog1">
+                </div>
+                <div class="content">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h4>By Raka Sasmita / 19 june 2005</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique eveniet animi, atque adipisci doloribus architecto dolores sint porro temporibus voluptatem deleniti. Ipsam veniam ducimus minus recusandae amet explicabo obcaecati.</p>
+                    <div class="btn">baca selengkapnya</div>
+                </div>
+            </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blogs2.jpeg" alt="blog2">
+                    </div>
+                    <div class="content">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h4>By Dian Maharani / 19 june 2005</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique eveniet animi, atque adipisci doloribus architecto dolores sint porro temporibus voluptatem deleniti. Ipsam veniam ducimus minus recusandae amet explicabo obcaecati.</p>
+                        <div class="btn">baca selengkapnya</div>
+                    </div>
+                </div> 
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/blogs3.jpeg" alt="blog3">
+                        </div>
+                        <div class="content">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <h4>By Raka Sasmita / 19 june 2005</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique eveniet animi, atque adipisci doloribus architecto dolores sint porro temporibus voluptatem deleniti. Ipsam veniam ducimus minus recusandae amet explicabo obcaecati.</p>
+                            <div class="btn">baca selengkapnya</div>
+                        </div>
+                </div>
+        </div>
+     </section>
+
+      <!-- Blog Section End -->
+
+
+      <!-- Footer Section Starts -->
+     
+     <section class="footer">
+
+        <div class="heading">filosofi <span>kopi</span></div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">blogs</a>
+        </div>
+
+        <div class="credit">created by <a href="http://linkedin.com/in/elthon-jhon-kevin-227bb2293/" target="_blank">Elthon Jhon Kevin</a>| all rights reserved</div>
+
+     </section>
+
+      <!-- Footer Section Ends -->
+
+    <!-- Custom Js File -->
+     <script src="js/main.js"></script>
+</body>
+</html>
