@@ -4,7 +4,7 @@ Situs statis bertema kedai kopi (Filosofi Kopi) yang dibangun dengan HTML, CSS, 
 
 Nama repository di GitHub adalah `CoffeShop-Website`, sehingga slug dan URL live memakai e tunggal sesuai nama repo.
 
-- Live demo: https://elthonjhon1906.github.io/CoffeShop-Website/
+- Live demo: [https://elthonjhon1906.github.io/CoffeShop-Website/](https://el-thon.github.io/CoffeShop-Website/)
   - Untuk fork, sesuaikan: https://[YOUR_USERNAME].github.io/CoffeShop-Website/
 
 ## Fitur Utama
